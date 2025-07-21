@@ -72,7 +72,7 @@ wget https://raw.githubusercontent.com/kimasplund/Linux-Samsung-Nvme-Firmware-Is
 ## Troubleshooting
 
 If you encounter any issues:
-- Ensure the script is being run as the root user.
+- Ensure the script is being run as the root user. ( NOT sudo. you need to #su so you really are root user. )
 - Verify the ISO file is valid and correctly specified.
 - Check the error messages displayed by the script for guidance.
 
